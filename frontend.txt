@@ -1,0 +1,27 @@
+first we make the routing available
+ npm i react-router-dom
+
+->  now use this package and define some routes for diffrent pages and algo enclose the nav bar component
+->  after defining the roots set the links for those routes
+
+
+// for the sign up 
+we first fetch the url running at backend then we performed a fetch requiest 
+we also used the useNavigate hook to use navigate the user to / when he signs up (first time);
+
+//store the users data into the local storage 
+
+//creating private component to hide the component until the user is not signed up
+make all components private and dont let them render till the user is not signed up
+
+
+//*************************************//
+login pages
+
+
+/why we use useEffect/
+we can access login/ signup even after we loged in or signed up bu 
+127.0.0.1:5500/login
+127.0.0.1:5500/signup
+
+so every time the page re-renders we should check to the local storage.

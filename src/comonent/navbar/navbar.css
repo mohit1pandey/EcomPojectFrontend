@@ -1,0 +1,38 @@
+
+.navul{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgb(33, 25, 92);
+    height: 8vh;
+    align-items: center;
+}
+
+
+.navul li {
+    margin: 0px 20px 0px 20px;
+    list-style: none;
+}
+
+.navul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.98em;
+    padding: 3px;
+    border-radius: 5px;
+}
+.nav-img{
+    width: 7vh;
+    background-color: white;
+    margin-top: .5vh;
+    border-radius: 100%;
+}
+
+.nav-right{
+   flex-direction: row-reverse;
+}
+
+
+a:hover{
+color: rgb(2, 1, 36);
+background-color:  rgb(179, 176, 207);
+}

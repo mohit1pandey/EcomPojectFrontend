@@ -1,0 +1,10 @@
+.footer{
+position: absolute;
+top:100vh;
+text-align: center;
+width: 100%;
+background-color:  rgb(33, 25, 92);
+font-size: .8em;
+color: aliceblue;
+}
+  
